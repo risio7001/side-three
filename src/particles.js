@@ -68,7 +68,6 @@ export const particles = (data) =>{
             particles2.position.x = Math.sin(clock.getElapsedTime())
             particles2.material.size = Math.abs(Math.cos(clock.getElapsedTime()))-0.5
         }
-    
     }
     update();
 }
