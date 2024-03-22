@@ -1,3 +1,3 @@
 # side-three
 
-THREE + gsap
+THREE + gsap + firebase(hosting)
