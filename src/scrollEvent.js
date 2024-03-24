@@ -19,6 +19,13 @@ export const scrollEvent = (data) => {
         },
     }
 
+    gsap.to("#e-1", {
+        immediateRender:false,
+        scrollTrigger:scroll_1,
+        opacity:0.7,
+        translateY:0
+    })
+
     gsap.to(camera.position, {
         immediateRender:false,
         scrollTrigger:scroll_1,
@@ -39,6 +46,14 @@ export const scrollEvent = (data) => {
             return `+=${document.documentElement.clientHeight}px`
         }
     }
+
+
+    gsap.to("#e-1", {
+        immediateRender:false,
+        scrollTrigger:scroll_2,
+        opacity:0,
+        translateY:"-200%"
+    })
 
     gsap.to(camera.position, {
         immediateRender:false,
