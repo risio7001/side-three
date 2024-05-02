@@ -69,9 +69,6 @@ module.exports = {
 				{ from: "./src/main.css", to: "./main.css" },
 				{ from: "./src/assets/pp1.fbx", to: "./pp1.fbx" },
 				{ from: "./src/assets/particle.png", to: "./particle.png" },
-				// { from: "./src/images", to: "./images" },
-				// { from: "./src/models", to: "./models" },
-				// { from: "./src/sounds", to: "./sounds" }
 			],
 		})
 	]
